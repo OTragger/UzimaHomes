@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+#hero{
+    background-image: url("../assets/img/back1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#book-appointment{
+    background-image: url("../assets/img/back2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #3D473B;
+}
+
+.uzima-3d{
+    position: absolute;
+    z-index: 3;
+    top: 800px;
+    right: 0;
+    width: 200px;
+    height:200px;
+}
+
+#presentation .d-img{
+    height: 200px;
+    background-image: url("../assets/img/back2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#five{
+    background-color: #3D473B;
+}
+
+.image-left{
+    
+    width:100%;
+    object-fit: cover;
+    object-position: center center;
+}
