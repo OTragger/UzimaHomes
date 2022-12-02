@@ -64,7 +64,7 @@
 
         <section id="hero" class="container-fluid p-0 text-light align-items-center d-flex">
             <video class="hero-background" loop muted autoplay poster="assets/img/WhatsApp Image 2022-11-16 at 10.46.07 (1).jpeg">
-                <source src="video/uzima-slomo.mp4" type="video/mp4">
+                <source src="video/uzima-slomo.m4v" type="video/mp4">
             </video>
             <span class="veil"></span>
             <div class="container">
@@ -72,7 +72,7 @@
                         <p class="display-1 fw-bold" data-aos="fade-up" data-aos-delay="400">
                             UZIMA HOMES
                         </p>
-                        <p data-aos-delay="500" data-aos="fade-up">High end 2/3 bedroom apartments</p>
+                        <p class="fs-3" data-aos-delay="500" data-aos="fade-up">Experience High-end bespoke designed 2/3 bedroom apartments</p>
                         
                     </div>
             </div>
