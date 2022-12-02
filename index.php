@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uzima Homes</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/uzima-logo-white.svg" type="image/x-icon">
+    <link href="css/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/aos.js"></script>
 </head>
 
 <body>
-    <div class="loader d-flex justify-content-center align-item-center vh-100 vw-100">
+    <div class="loader d-flex flex-column justify-content-center align-item-center vh-100 vw-100">
         <div class="loading">
             <div></div>
             <div></div>
@@ -33,43 +35,50 @@
             <div></div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand d-lg-none ms-3" href="#">
-                <div class="d-flex flex-row justify-content-center align-items-center">
-                    <img class="d-lg-none" width="30" src="assets/img/uzima-logo.svg" alt="">
-                    <span class="log d-none d-md-flex ms-1 fs-3">UZIMA HOMES</span>
-                </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                <div class="navbar-nav align-items-center">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Guides</a>
-                    <a class="navbar-brand d-none d-lg-flex mx-3" href="#"><img width="40" src="assets/img/uzima-logo.svg" alt=""></a>
-                    <a class="nav-link" href="#">Flights</a>
-                    <a class="nav-link" href="#">About</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
     <div class="site-wrapper">
-        <section id="hero" class="container-fluid py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col text-center text-md-start py-5">
-                        <p class="display-1 fw-bold">
-                            Fine 2/3 bedroom apartments
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, alias expedita accusantium quae illum commodi repellat voluptate praesentium. Accusamus a suscipit nostrum error autem rem ex quas esse magnam voluptate.</p>
-                        <p class="btn btn-dark px-5">Dive in</p>
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-lg-none ms-3" href="#">
+                        <div class="d-flex flex-row justify-content-center align-items-center">
+                            <img class="d-lg-none" width="30" src="assets/img/uzima-logo.svg" alt="">
+                            <span class="log d-none d-md-flex ms-1 fs-3">UZIMA HOMES</span>
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                        <div class="navbar-nav align-items-center">
+                            <a class="px-4 nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="px-4 nav-link" href="#about-us">About</a>
+                            <a class="px-4 navbar-brand d-none d-lg-flex mx-3" href="#"><img width="40" src="assets/img/uzima-logo.svg" alt=""></a>
+                            <a class="px-4 nav-link" href="#get-in-touch">Contact</a>
+                            <a class="px-4 nav-link" href="#">Brochure</a>
+                        </div>
                     </div>
-                    <div class="col d-none d-md-flex"></div>
                 </div>
+            </nav>
+        </section>
+
+
+        <section id="hero" class="container-fluid p-0 text-light align-items-center d-flex">
+            <video class="hero-background" loop muted autoplay poster="assets/img/WhatsApp Image 2022-11-16 at 10.46.07 (1).jpeg">
+                <source src="video/uzima-slomo.mp4" type="video/mp4">
+            </video>
+            <span class="veil"></span>
+            <div class="container">
+                    <div class="text-center py-5">
+                        <p class="display-1 fw-bold" data-aos="fade-up" data-aos-delay="400">
+                            UZIMA HOMES
+                        </p>
+                        <p data-aos-delay="500" data-aos="fade-up">High end 2/3 bedroom apartments</p>
+                        
+                    </div>
             </div>
+            <a href="#book-appointment" class="text-light">
+            <i class="bi bi-arrow-down down-arrow border border-light p-2"></i>
+            </a>
         </section>
 
         <section class="container-fluid py-5" id="book-appointment">
@@ -83,36 +92,90 @@
             </div>
         </section>
 
+        <section id="about-us" class="container-fluid px-0 py-5 text-dark ">
+            <div class="container px-0 d-flex flex-column flex-lg-row">
+                <div class="p-3 col col-lg-6">
+                    <p class="display-4 fw-bold text-center text-md-start">Who we are</p>
+                    <div class="mb-3">
+                        <p class="h3 text-center text-md-start fw-bold">UZIMA HOMES</p>
+                        <p>We are a specialist real estate partner in developing, marketing, and managing premium residences in Accra’s most prestigious locations. We represent high profile developers in the real estate market, with a team of distinguished professionals who have redefined the real estate business through high-level professionalism, speed, excellence, transparency, and most importantly, a client-focused approach. Our services focus on property sales, property rentals, and property management for top-notch developers. These services are tailored to bestow unrelenting, effective, and efficient customer service for our clients.</p>
+                    </div>
+                    <div class="mb-3">
+                        <p>Our installation is a collection of exclusive high-end residences at Ring road, with an average of 200 sq. m. living area over one floor. Offering an opportunity to experience a contemporary and timeless expression of luxury in Accra, each home has been designed with carefully selected elements to provide an unrivaled level of detail, intelligent design, superior finishing, and a truly individualized experience.</p>
+                    </div>
+                </div>
+                <div class="col col-lg-6 p-4">
+                    <div class="row justify-content-center align-items-start">
+                        <div class="col-6 p-2 text-center">
+                            <div class="border p-3 border-dark rounded">
+                            <i class="bi bi-shield-lock display-1 text-forest"></i>
+                            <h2 class="fs-5 fw-bold p-3">INTEGRITY</h2>
+                            <p class="fs-6">Our word is our bond. At <span class="fw-bold">UZIMA HOMES</span>, what we genuinely care about most is the trust between all parties.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 p-2 text-center">
+                            <div class="border p-3 border-dark rounded">
+                            <i class="bi bi-activity display-1 text-forest"></i>
+                            <h2 class="fs-5 fw-bold p-3">EXCELLENCE</h2>
+                            <p class="fs-6">Our high standards drive us to achieve nothing but excellence with each development.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 p-2 text-center">
+                            <div class="border p-3 border-dark rounded">
+                            <i class="bi bi-speedometer2 display-1 text-forest"></i>
+                            <h2 class="fs-5 fw-bold p-3">SPEED</h2>
+                            <p class="fs-6">Time is an extremely limited resource and we understand that. That is why speed is a priority with us.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 p-2 text-center">
+                            <div class="border p-3 border-dark rounded">
+                            <i class="bi bi-people display-1 text-forest"></i>
+                            <h2 class="fs-5 fw-bold p-3">CUSTOMER-CENTRIC</h2>
+                            <p class="fs-6">Our aim to make customer experience exceptional is what drives us to always be customer-centric.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="container-fluid py-5" id="presentation">
             <div class="container py-5">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 p-3 col-md-4">
-                        <div class="d-flex flex-md-column align-items-end">
-                            <div class="d-img w-100"></div>
+                        <div class="d-flex flex-row justify-content-start flex-md-column align-items-start">
+                            <div class="d-img w-100 d-none d-md-flex"></div>
                             <div class="ps-3 ps-md-0">
                                 <hr class="w-25">
-                                <h4 class="fw-bold">Lorem ipsum</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ipsam tempora voluptas quaerat id alias excepturi commodi, enim quibusdam inventore magnam ipsum reprehenderit vitae! Dolores deleniti mollitia obcaecati illum sed.</p>
+                                <h4 class="fw-bold text-forest">Our Vision</h4>
+                                <p>Our vision is to strive to develop premier real estate leaders with excellence and deliver a world-class experience by providing our clients with the respect and service they deserve and the result they expect.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 p-3 col-md-4">
-                        <div class="d-flex flex-md-column align-items-end">
-                            <div class="d-img w-100"></div>
+                        <div class="d-flex flex-row justify-content-start flex-md-column align-items-end">
+                            <div class="d-img w-100 d-none d-md-flex"></div>
                             <div class="ps-3 ps-md-0">
                                 <hr class="w-25">
-                                <h4 class="fw-bold">Lorem ipsum</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ipsam tempora voluptas quaerat id alias excepturi commodi, enim quibusdam inventore magnam ipsum reprehenderit vitae! Dolores deleniti mollitia obcaecati illum sed.</p>
+                                <h4 class="fw-bold text-forest">Our Mission</h4>
+                                <p> Our mission is to create, preserve and provide valuable affordable housing that transforms our communities, works to eliminate family insecurities and empower residents to experience housing with Pride, Life and Dignity and offer advanced atmosphere of well-being.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 p-3 col-md-4">
-                        <div class="d-flex flex-md-column align-items-end">
-                            <div class="d-img w-100"></div>
+                        <div class="d-flex flex-row justify-content-start flex-md-column align-items-end">
+                            <div class="d-img w-100 d-none d-md-flex"></div>
                             <div class="ps-3 ps-md-0">
                                 <hr class="w-25">
-                                <h4 class="fw-bold">Lorem ipsum</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ipsam tempora voluptas quaerat id alias excepturi commodi, enim quibusdam inventore magnam ipsum reprehenderit vitae! Dolores deleniti mollitia obcaecati illum sed.</p>
+                                <h4 class="fw-bold text-forest">What we believe in</h4>
+                                <ul>
+                                    <li>Band:  together for the greater good</li>
+                                    <li>Expertise: education and specialization</li>
+                                    <li>No excuses</li>
+                                    <li>Influence: lead by examples</li>
+                                    <li>Communication: transparency in all things</li>
+                                    <li>Energy: magnetic culture</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -136,7 +199,7 @@
                         <img class="img-fluid pb-3" src="./assets/img/WhatsApp Image 2022-11-16 at 10.46.07 (1).jpeg" alt="">
                         <div class="row">
                             <div class="col">
-                                <p class="h3">Welcome to the battle royale</p>
+                                <p class="h3 text-end">Apartment specifications and details</p>
                             </div>
                             <div class="col">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur tenetur temporibus corporis ipsa voluptatum laboriosam tempore volu adipisci enim?</p>
@@ -149,20 +212,16 @@
         </section>
 
         <section id="five" class="container-fluid px-0 py-5 text-light">
-            <div class="container py-5 px-0 d-flex flex-column-reverse flex-md-row">
+            <div class="container py-5 px-0 d-flex flex-column-reverse flex-md-row align-items-center">
                 <div class="p-3">
-                    <p class="display-6 fw-bold">Choose apartments that fit your needs</p>
+                    <p class="display-6 fw-bold text-center text-md-start">Choose apartments that fit your needs</p>
                     <div class="mb-3">
                         <p class="h3">Lorem ipsum dolor</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sunt perspiciatis obcaecati quaerat, incidunt doloribus totam veritatis nostrum quisquam optio corporis ea iure est. Minus molestiae sapiente odit harum perspiciatis.</p>
-                    </div>
-                    <div class="mb-3">
-                        <p class="h3">Lorem ipsum dolor</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sunt perspiciatis obcaecati quaerat, incidunt doloribus totam veritatis nostrum quisquam optio corporis ea iure est. Minus molestiae sapiente odit harum perspiciatis.</p>
+                        <p>When it comes to finding an apartment that fits your needs, there are always few things to keep in mind. The environment you want to live in for example (bustling areas or a more relaxed suburb); does the apartment have enough space for all of your belongings? Is the layout of the apartment conducive to the way you want to live? Are the amenities and features of the apartment approved? <br> We respond to all these interrogations by offering high-end facilities according to your preferences. <br> When considering an apartment, be sure to take us into account.</p>
                     </div>
                 </div>
                 <div class="d-none d-lg-flex col-lg-6 flex-row justfy-content-end">
-                    <img class="image-left" src="./assets/img/WhatsApp Image 2022-11-16 at 10.46.06.jpeg" alt="">
+                    <img class="image-left" src="assets/img/uzima-3d.png" alt="">
                 </div>
             </div>
         </section>
@@ -171,12 +230,10 @@
             <div class="container py-5">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 col-md-5">
-                        <div class="d-flex flex-row justfy-content-end">
-                            <img class="image-left" lazy src="assets/img/WhatsApp Image 2022-11-16 at 10.46.06.jpeg" alt="">
-                        </div>
+                        <img class="img-fluid" loading="lazy" src="assets/img/bg-1.jpg" alt="">
                     </div>
                     <div class="col-12 pt-4 pt-md-0 col-md-7">
-                        <p class="display-6 fw-bold">Most frequently asked questions</p>
+                        <p class="display-6 fw-bold text-center text-md-start">Most frequently asked questions</p>
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingOne">
@@ -225,7 +282,7 @@
             <div class="container py-5">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 col-lg-6">
-                        <p class="display-6 fw-bold">Get in touch with us</p>
+                        <p class="display-6 fw-bold text-center text-md-start">Get in touch with us</p>
                         <form action="" method="post">
                             <div class="input-group flex-nowrap mb-3">
                                 <span class="input-group-text" id="addon-wrapping"><i class="bi bi-person"></i></span>
@@ -234,6 +291,10 @@
                             <div class="input-group flex-nowrap mb-3">
                                 <span class="input-group-text" id="addon-wrapping"><i class="bi bi-envelope"></i></span>
                                 <input type="email" class="form-control" placeholder="koffiagyei@mail.gh" aria-label="email" aria-describedby="addon-wrapping">
+                            </div>
+                            <div class="input-group flex-nowrap mb-3">
+                                <span class="input-group-text" id="addon-wrapping"><i class="bi bi-phone"></i></span>
+                                <input type="text" class="form-control" placeholder="+233 00 000 0000" aria-label="phone_number" aria-describedby="addon-wrapping">
                             </div>
                             <div class="input-group flex-nowrap mb-3">
                                 <div class="form-floating w-100">
@@ -257,7 +318,7 @@
             <div class="container pt-5">
                 <div class="row justify-content-center align-items-center align-items-lg-start pb-3">
                     <div class="col-12 col-md-3 d-flex justify-content-center align-items-center flex-column">
-                        <img src="assets/img/uzima-logo.svg" width="50px" class="pb-3" style="fill:#fff;" alt="">
+                        <img src="assets/img/uzima-logo-white.svg" width="50px" class="pb-3" alt="">
                         <p class="text-uppercase fw-bold">Uzima homes</p>
                     </div>
                     <div class="col-12 col-md-3 text-center text-md-start py-3">
@@ -299,18 +360,18 @@
                                 </a>
                             </li>
                             <li class="d-block mb-3">
-                                <a href="en/about_us" title="About" class="text-light text-decoration-none">
+                                <a href="#about-us" title="About" class="text-light text-decoration-none">
                                     <span>About</span>
                                 </a>
                             </li>
                             <li class="d-block mb-3">
-                                <a href="en/service_details" title="Services Details" class="text-light text-decoration-none">
-                                    <span>Services Details</span>
+                                <a href="#contact" title="Services Details" class="text-light text-decoration-none">
+                                    <span>Contact</span>
                                 </a>
                             </li>
                             <li class="d-block mb-3">
                                 <a href="en/team" title="Team" class="text-light text-decoration-none">
-                                    <span>Team</span>
+                                    <span>Get Brochure</span>
                                 </a>
                             </li>
                         </ul>
@@ -330,22 +391,22 @@
     </div>
 
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
-        var preload = document.querySelector(".loader");
-            function preloaderfunction(){
-                preload.style.display="none";
-            }
-            window.addEventListener("load",function(){
-                var my_var = setInterval(preloaderfunction,2000);
-            })
-        $(document).ready(function(){
+        $(document).ready(function() {
             //initialize animate on scroll
             AOS.init();
 
-            
+            //initialize loader
+            setTimeout(() => {
+                $(".loader").slideUp();
+                $(".loader").removeClass("d-flex");
+            }, 2000);
+
+            window.addEventListener('load',AOS.refresh);
+
         })
     </script>
 </body>
