@@ -12,6 +12,14 @@ html{
     color: #3D473B;
 }
 
+.text-beige{
+    color: #DDC48E;
+}
+
+.bg-beige{
+    background-color: #DDC48E;
+}
+
 section{
     scroll-snap-align: start;
 }
@@ -77,6 +85,12 @@ section{
     height: 150px;
 }
 
+.blueprint-container img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
 #five{
     background-color: #3D473B;
 }
@@ -96,7 +110,50 @@ section{
     font-size: 12px!important;
 }
 
+.p-relative{
+    position: relative;
+}
+.parallaxes{
+    position: absolute;
+    background-position: center center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
 
+.parallaxes:nth-child(1){
+    bottom: -17px;
+    left: 28px;
+    width: 70px;
+    height: 70px;
+    transform: rotateZ(30deg);
+    background-image: url('../assets/img/uzima-logo-white.svg');
+}
+.parallaxes:nth-child(2){
+    bottom: -150px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    transform: rotateZ(-120deg);
+    background-image: url('../assets/img/uzima-logo-white.svg');
+}
+.parallaxes:nth-child(3){
+    bottom: 108px;
+    left: 368px;
+    width: 48px;
+    height: 48px;
+    transform: rotateZ(326deg);
+    background-image: url('../assets/img/uzima-logo-white.svg');
+}
+.parallaxes:nth-child(4){
+    bottom: 90px;
+    left: 122px;
+    width: 83px;
+    height: 83px;
+    transform: rotateZ(126deg);
+    background-image: url('../assets/img/uzima-logo-white.svg');
+    mix-blend-mode: screen;
+}
 
 /* **************loader************* */
 .loader{

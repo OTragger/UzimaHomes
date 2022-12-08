@@ -54,7 +54,7 @@
                             <a class="px-4 nav-link" href="#about-us">About</a>
                             <a class="px-4 navbar-brand d-none d-lg-flex mx-3" href="#"><img width="40" src="assets/img/uzima-logo.svg" alt=""></a>
                             <a class="px-4 nav-link" href="#get-in-touch">Contact</a>
-                            <a class="px-4 nav-link" href="#">Brochure</a>
+                            <a class="px-4 nav-link" href="/assets/Uzima homes brochure-compressed.pdf" download="UzimaHomes-Brochure.pdf">Brochure</a>
                         </div>
                     </div>
                 </div>
@@ -68,16 +68,16 @@
             </video>
             <span class="veil"></span>
             <div class="container">
-                    <div class="text-center py-5">
-                        <p class="display-1 fw-bold" data-aos="fade-up" data-aos-delay="400">
-                            UZIMA HOMES
-                        </p>
-                        <p class="fs-3" data-aos-delay="500" data-aos="fade-up">Experience High-end bespoke designed 2/3 bedroom apartments</p>
-                        
-                    </div>
+                <div class="text-center py-5">
+                    <p class="display-1 fw-bold" data-aos="fade-up" data-aos-delay="400">
+                        UZIMA HOMES
+                    </p>
+                    <p class="fs-3" data-aos-delay="500" data-aos="fade-up">Experience High-end bespoke designed 2/3 bedroom apartments</p>
+
+                </div>
             </div>
             <a href="#book-appointment" class="text-light">
-            <i class="bi bi-arrow-down down-arrow border border-light p-2"></i>
+                <i class="bi bi-arrow-down down-arrow border border-light p-2"></i>
             </a>
         </section>
 
@@ -86,8 +86,8 @@
                 <p class="fs-1 fw-bold">
                     Book an appointment
                 </p>
-                <p class="w-75 d-lg-none">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas accusantium, ad provident quod blanditiis molestias distinctio ipsam aperiam eum dolores ab, laudantium iste deserunt a asperiores quisquam enim at maxime!</p>
-                <p class="w-50 d-none d-lg-flex">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas accusantium, ad provident quod blanditiis molestias distinctio ipsam aperiam eum dolores ab, laudantium iste deserunt a asperiores quisquam enim at maxime!</p>
+                <p class="w-75 d-lg-none">Booking an appointment can save you time and effort in finding your dream home. Our experienced agents will guide you through the process and help you find the perfect apartment that fits your needs. Plus, our personalized services and attention to detail will make sure that your experience is smooth and stress-free. Don't miss out on the opportunity to find your perfect home, book an appointment with us today!</p>
+                <p class="w-50 d-none d-lg-flex">Booking an appointment can save you time and effort in finding your dream home. Our experienced agents will guide you through the process and help you find the perfect apartment that fits your needs. Plus, our personalized services and attention to detail will make sure that your experience is smooth and stress-free. Don't miss out on the opportunity to find your perfect home, book an appointment with us today!</p>
                 <p class="btn btn-outline-light px-5">Here</p>
             </div>
         </section>
@@ -108,30 +108,30 @@
                     <div class="row justify-content-center align-items-start">
                         <div class="col-6 p-2 text-center">
                             <div class="border p-3 border-dark rounded">
-                            <i class="bi bi-shield-lock display-1 text-forest"></i>
-                            <h2 class="fs-5 fw-bold p-3">INTEGRITY</h2>
-                            <p class="fs-6">Our word is our bond. At <span class="fw-bold">UZIMA HOMES</span>, what we genuinely care about most is the trust between all parties.</p>
+                                <i class="bi bi-shield-lock display-1 text-forest"></i>
+                                <h2 class="fs-5 fw-bold p-3">INTEGRITY</h2>
+                                <p class="fs-6">Our word is our bond. At <span class="fw-bold">UZIMA HOMES</span>, what we genuinely care about most is the trust between all parties.</p>
                             </div>
                         </div>
                         <div class="col-6 p-2 text-center">
                             <div class="border p-3 border-dark rounded">
-                            <i class="bi bi-activity display-1 text-forest"></i>
-                            <h2 class="fs-5 fw-bold p-3">EXCELLENCE</h2>
-                            <p class="fs-6">Our high standards drive us to achieve nothing but excellence with each development.</p>
+                                <i class="bi bi-activity display-1 text-forest"></i>
+                                <h2 class="fs-5 fw-bold p-3">EXCELLENCE</h2>
+                                <p class="fs-6">Our high standards drive us to achieve nothing but excellence with each development.</p>
                             </div>
                         </div>
                         <div class="col-6 p-2 text-center">
                             <div class="border p-3 border-dark rounded">
-                            <i class="bi bi-speedometer2 display-1 text-forest"></i>
-                            <h2 class="fs-5 fw-bold p-3">SPEED</h2>
-                            <p class="fs-6">Time is an extremely limited resource and we understand that. That is why speed is a priority with us.</p>
+                                <i class="bi bi-speedometer2 display-1 text-forest"></i>
+                                <h2 class="fs-5 fw-bold p-3">SPEED</h2>
+                                <p class="fs-6">Time is an extremely limited resource and we understand that. That is why speed is a priority with us.</p>
                             </div>
                         </div>
                         <div class="col-6 p-2 text-center">
                             <div class="border p-3 border-dark rounded">
-                            <i class="bi bi-people display-1 text-forest"></i>
-                            <h2 class="fs-5 fw-bold p-3">CUSTOMER-CENTRIC</h2>
-                            <p class="fs-6">Our aim to make customer experience exceptional is what drives us to always be customer-centric.</p>
+                                <i class="bi bi-people display-1 text-forest"></i>
+                                <h2 class="fs-5 fw-bold p-3">CUSTOMER-CENTRIC</h2>
+                                <p class="fs-6">Our aim to make customer experience exceptional is what drives us to always be customer-centric.</p>
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
 
         <section class="container-fluid py-5" id="presentation">
             <div class="container py-5">
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-start">
                     <div class="col-12 p-3 col-md-4">
                         <div class="d-flex flex-row justify-content-start flex-md-column align-items-start">
                             <div class="d-img w-100 d-none d-md-flex"></div>
@@ -169,7 +169,7 @@
                                 <hr class="w-25">
                                 <h4 class="fw-bold text-forest">What we believe in</h4>
                                 <ul>
-                                    <li>Band:  together for the greater good</li>
+                                    <li>Band: together for the greater good</li>
                                     <li>Expertise: education and specialization</li>
                                     <li>No excuses</li>
                                     <li>Influence: lead by examples</li>
@@ -193,17 +193,19 @@
             <div class="container">
                 <div class="row">
                     <div class="d-none d-lg-flex col-lg-6 flex-row justfy-content-end">
-                        <img class="image-left" src="assets/img/WhatsApp Image 2022-11-16 at 10.46.06.jpeg" alt="">
+                        <img class="image-left" src="assets/img/Image1.jpeg" alt="">
                     </div>
                     <div class="col col-lg-6">
-                        <img class="img-fluid pb-3" src="./assets/img/WhatsApp Image 2022-11-16 at 10.46.07 (1).jpeg" alt="">
+                        <div class="blueprint-container w-100">
+                            <img class="pb-3" src="./assets/img/blueprint.jpg" alt="">
+                        </div>
                         <div class="row">
-                            <div class="col">
+                            <div class="col col-md-4">
                                 <p class="h3 text-end">Apartment specifications and details</p>
                             </div>
-                            <div class="col">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur tenetur temporibus corporis ipsa voluptatum laboriosam tempore volu adipisci enim?</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur tenetur temporibus corporis ipsa voluptatum laboriosam tempore volu adipisci enim?</p>
+                            <div class="col col-md-8">
+                                <p>A 2 or 3 bedroom apartment is a great option for those who need extra space for a home office, guest room, or children's bedrooms. The master bedroom typically includes a large closet and en-suite bathroom, providing a comfortable and private space for the homeowner. The other bedrooms can be used for a variety of purposes, such as a home office, guest room, or children's bedrooms. Additionally, the extra space can also be used for a hobby room or exercise space. Overall, our apartments offers a versatile and functional living space for families and individuals alike.</p>
+
                             </div>
                         </div>
                     </div>
@@ -216,11 +218,14 @@
                 <div class="p-3">
                     <p class="display-6 fw-bold text-center text-md-start">Choose apartments that fit your needs</p>
                     <div class="mb-3">
-                        <p class="h3">Lorem ipsum dolor</p>
                         <p>When it comes to finding an apartment that fits your needs, there are always few things to keep in mind. The environment you want to live in for example (bustling areas or a more relaxed suburb); does the apartment have enough space for all of your belongings? Is the layout of the apartment conducive to the way you want to live? Are the amenities and features of the apartment approved? <br> We respond to all these interrogations by offering high-end facilities according to your preferences. <br> When considering an apartment, be sure to take us into account.</p>
                     </div>
                 </div>
-                <div class="d-none d-lg-flex col-lg-6 flex-row justfy-content-end">
+                <div class="d-none d-lg-flex col-lg-6 flex-row justfy-content-end p-relative">
+                    <div class="parallaxes"></div>
+                    <div class="parallaxes"></div>
+                    <div class="parallaxes"></div>
+                    <div class="parallaxes"></div>
                     <img class="image-left" src="assets/img/uzima-3d.png" alt="">
                 </div>
             </div>
@@ -327,17 +332,17 @@
                             <li class="d-block mb-3">
                                 <a href="#" class="text-light text-decoration-none">
                                     <i class="bi bi-alarm global-color-accent"></i>
-                                    <span>8am - 6pm</span>
+                                    <span>8am - 5pm</span>
                                 </a>
                             </li>
                             <li class="d-block mb-3">
-                                <a href="tel:+233208554622" target="_blank" title="tel:+233208554622" class="text-light text-decoration-none">
+                                <a href="tel:+233208709631" target="_blank" title="tel:+233 (0) 20 870 9631" class="text-light text-decoration-none">
                                     <i class="bi bi-telephone global-color-accent"></i>
-                                    <span>+233 (0) 208 554 622</span>
+                                    <span>+233 (0) 20 870 9631</span>
                                 </a>
                             </li>
                             <li class="d-block mb-3">
-                                <a href="https://goo.gl/maps/3ukfJgAQTpE5JXoM7" target="_blank" title="https://goo.gl/maps/3ukfJgAQTpE5JXoM7" class="text-light text-decoration-none">
+                                <a href="https://goo.gl/maps/UgDkD4Pn37aMQfWS7" target="_blank" title="https://goo.gl/maps/UgDkD4Pn37aMQfWS7" class="text-light text-decoration-none">
                                     <i class="bi bi-geo-alt global-color-accent"></i>
                                     <span>Spintex, Accra GHANA</span>
                                 </a>
@@ -365,12 +370,12 @@
                                 </a>
                             </li>
                             <li class="d-block mb-3">
-                                <a href="#contact" title="Services Details" class="text-light text-decoration-none">
+                                <a href="#contact" title="Get in touch with us" class="text-light text-decoration-none">
                                     <span>Contact</span>
                                 </a>
                             </li>
                             <li class="d-block mb-3">
-                                <a href="en/team" title="Team" class="text-light text-decoration-none">
+                                <a href="/assets/Uzima homes brochure-compressed.pdf" download="UzimaHomes-Brochure.pdf" title="Get our brochure" class="text-light text-decoration-none">
                                     <span>Get Brochure</span>
                                 </a>
                             </li>
@@ -391,7 +396,7 @@
     </div>
 
 
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
@@ -405,7 +410,16 @@
                 $(".loader").removeClass("d-flex");
             }, 2000);
 
-            window.addEventListener('load',AOS.refresh);
+            window.addEventListener('load', AOS.refresh);
+
+            let parallax_objects = document.querySelectorAll(".parallaxes");
+            window.addEventListener("scroll", function() {
+                var value = window.scrollY;
+                parallax_objects.forEach(element => {
+                    element.style.bottom = value * 0.4 + "px";
+                    console.log(element.style.bottom)
+                });
+            });
 
         })
     </script>
