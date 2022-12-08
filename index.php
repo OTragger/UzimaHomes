@@ -88,7 +88,7 @@
                 </p>
                 <p class="w-75 d-lg-none">Booking an appointment can save you time and effort in finding your dream home. Our experienced agents will guide you through the process and help you find the perfect apartment that fits your needs. Plus, our personalized services and attention to detail will make sure that your experience is smooth and stress-free. Don't miss out on the opportunity to find your perfect home, book an appointment with us today!</p>
                 <p class="w-50 d-none d-lg-flex">Booking an appointment can save you time and effort in finding your dream home. Our experienced agents will guide you through the process and help you find the perfect apartment that fits your needs. Plus, our personalized services and attention to detail will make sure that your experience is smooth and stress-free. Don't miss out on the opportunity to find your perfect home, book an appointment with us today!</p>
-                <p class="btn btn-outline-light px-5">Here</p>
+                <a href="#get-in-touch" class="btn btn-outline-light px-5">Here</a>
             </div>
         </section>
 
@@ -184,11 +184,11 @@
         </section>
 
         <section id="four" class="container-fluid py-5">
-            <div class="container py-5 text-center d-flex flex-column align-items-center">
+            <div class="container py-5 text-center d-flex flex-column align-items-center justify-content-center">
                 <img src="assets/img/uzima-logo.svg" width="50" alt="">
                 <p class="display-3 fw-bold w-75">Learn more about our apartments</p>
-                <p class="w-75 d-lg-none">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas accusantium, ad provident quod blanditiis molestias distinctio ipsam aperiam eum dolores ab, laudantium iste deserunt a asperiores quisquam enim at maxime!</p>
-                <p class="w-50 d-none d-lg-flex">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas accusantium, ad provident quod blanditiis molestias distinctio ipsam aperiam eum dolores ab, laudantium iste deserunt a asperiores quisquam enim at maxime!</p>
+                <p class="w-75 d-lg-none">Just dive right in!</p>
+                <p class="w-50 d-none d-lg-flex">Just dive right in!</p>
             </div>
             <div class="container">
                 <div class="row">
@@ -286,29 +286,29 @@
         <section id="get-in-touch" class="py-5 container-fluid">
             <div class="container py-5">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 mss">
                         <p class="display-6 fw-bold text-center text-md-start">Get in touch with us</p>
-                        <form action="" method="post">
+                        <form id="message_us">
                             <div class="input-group flex-nowrap mb-3">
                                 <span class="input-group-text" id="addon-wrapping"><i class="bi bi-person"></i></span>
-                                <input type="text" class="form-control" placeholder="Koffi Agyei" aria-label="Name" aria-describedby="addon-wrapping">
+                                <input name="name" type="text" id="name" class="form-control" placeholder="Koffi Agyei" aria-label="Name" aria-describedby="addon-wrapping">
                             </div>
                             <div class="input-group flex-nowrap mb-3">
                                 <span class="input-group-text" id="addon-wrapping"><i class="bi bi-envelope"></i></span>
-                                <input type="email" class="form-control" placeholder="koffiagyei@mail.gh" aria-label="email" aria-describedby="addon-wrapping">
+                                <input name="email" type="email" id="email" class="form-control" placeholder="koffiagyei@mail.gh" aria-label="email" aria-describedby="addon-wrapping">
                             </div>
                             <div class="input-group flex-nowrap mb-3">
                                 <span class="input-group-text" id="addon-wrapping"><i class="bi bi-phone"></i></span>
-                                <input type="text" class="form-control" placeholder="+233 00 000 0000" aria-label="phone_number" aria-describedby="addon-wrapping">
+                                <input name="phone" type="text" id="phone" class="form-control" placeholder="+233 00 000 0000" aria-label="phone_number" aria-describedby="addon-wrapping">
                             </div>
                             <div class="input-group flex-nowrap mb-3">
                                 <div class="form-floating w-100">
-                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                                    <label for="floatingTextarea2">Message</label>
+                                    <textarea name="message" class="form-control" placeholder="Leave a comment here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
                                 </div>
                             </div>
                             <div class="input-group flex-nowrap mb-3">
-                                <input type="submit" value="Email us" class="form-control btn btn-secondary" aria-label="send-mail" aria-describedby="addon-wrapping">
+                                <input type="submit" name='submit' value="Email us" class="form-control btn btn-secondary" aria-label="send-mail" aria-describedby="addon-wrapping">
                             </div>
                         </form>
                     </div>
@@ -412,17 +412,10 @@
 
             window.addEventListener('load', AOS.refresh);
 
-            let parallax_objects = document.querySelectorAll(".parallaxes");
-            window.addEventListener("scroll", function() {
-                var value = window.scrollY;
-                parallax_objects.forEach(element => {
-                    element.style.bottom = value * 0.4 + "px";
-                    console.log(element.style.bottom)
-                });
-            });
-
+            
         })
     </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
