@@ -63,7 +63,7 @@
 
 
         <section id="hero" class="container-fluid p-0 text-light align-items-center d-flex">
-            <video class="hero-background" loop muted autoplay poster="assets/img/WhatsApp Image 2022-11-16 at 10.46.07 (1).jpeg">
+            <video class="hero-background" loop muted autoplay poster="assets/img/uzimaweb.jpg">
                 <source src="video/uzima-slomo.m4v" type="video/mp4">
             </video>
             <span class="veil"></span>
