@@ -54,7 +54,7 @@
                             <a class="px-4 nav-link" href="#about-us">About</a>
                             <a class="px-4 navbar-brand d-none d-lg-flex mx-3" href="#"><img width="40" src="assets/img/uzima-logo.svg" alt=""></a>
                             <a class="px-4 nav-link" href="#get-in-touch">Contact</a>
-                            <a class="px-4 nav-link" href="/assets/Uzima homes brochure-compressed.pdf" download="UzimaHomes-Brochure.pdf">Brochure</a>
+                            <a class="px-4 nav-link" href="assets/brochure-compressed.pdf" download="UzimaHomes-Brochure.pdf">Brochure</a>
                         </div>
                     </div>
                 </div>
@@ -187,8 +187,8 @@
             <div class="container py-5 text-center d-flex flex-column align-items-center justify-content-center">
                 <img src="assets/img/uzima-logo.svg" width="50" alt="">
                 <p class="display-3 fw-bold w-75">Learn more about our apartments</p>
-                <p class="w-75 d-lg-none">Just dive right in!</p>
-                <p class="w-50 d-none d-lg-flex">Just dive right in!</p>
+                <p class="d-lg-none">Just dive right in!</p>
+                <p class="d-none d-lg-flex">Just dive right in!</p>
             </div>
             <div class="container">
                 <div class="row">
@@ -375,7 +375,7 @@
                                 </a>
                             </li>
                             <li class="d-block mb-3">
-                                <a href="/assets/Uzima homes brochure-compressed.pdf" download="UzimaHomes-Brochure.pdf" title="Get our brochure" class="text-light text-decoration-none">
+                                <a href="assets/brochure-compressed.pdf" download="UzimaHomes-Brochure.pdf" title="Get our brochure" class="text-light text-decoration-none">
                                     <span>Get Brochure</span>
                                 </a>
                             </li>
