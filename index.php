@@ -308,7 +308,7 @@
                                 </div>
                             </div>
                             <div class="input-group flex-nowrap mb-3">
-                                <input type="submit" name='submit' value="Email us" class="form-control btn btn-secondary" aria-label="send-mail" aria-describedby="addon-wrapping">
+                                <input type="submit" id="submit-button" name='submit' value="Email us" class="form-control btn btn-secondary" aria-label="send-mail" aria-describedby="addon-wrapping">
                             </div>
                         </form>
                     </div>
