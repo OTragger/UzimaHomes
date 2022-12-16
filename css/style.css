@@ -78,11 +78,20 @@ section{
 }
 
 #presentation .d-img{
-    background-image: url("../assets/img/back2.jpg");
+    
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
+}
+#presentation .d-img:nth-child(1){
+background-image: url("../assets/img/Image1.jpeg");
+}
+#presentation .d-img:nth-child(2){
+background-image: url("../assets/img/Image2.jpeg");
+}
+#presentation .d-img:nth-child(3){
+background-image: url("../assets/img/Image3.jpeg");
 }
 
 .blueprint-container img{

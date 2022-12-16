@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Experience High-end bespoke designed 2/3 bedroom apartments">
+    <meta name="author" content="Oswald Houndekon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uzima Homes</title>
     <link rel="shortcut icon" href="assets/img/uzima-logo-white.svg" type="image/x-icon">
@@ -64,15 +66,15 @@
 
         <section id="hero" class="container-fluid p-0 text-light align-items-center d-flex">
             <video class="hero-background" loop muted autoplay poster="assets/img/uzimaweb.jpg">
-                <source src="video/uzima-slomo.m4v" type="video/mp4">
+                <source src="video/uzima_slomo.mp4" type="video/mp4">
             </video>
             <span class="veil"></span>
             <div class="container">
                 <div class="text-center py-5">
-                    <p class="display-1 fw-bold" data-aos="fade-up" data-aos-delay="400">
+                    <p class="display-1 fw-bold" data-aos="fade-up" data-aos-delay="2500">
                         UZIMA HOMES
                     </p>
-                    <p class="fs-3" data-aos-delay="500" data-aos="fade-up">Experience High-end bespoke designed 2/3 bedroom apartments</p>
+                    <p class="fs-3" data-aos-delay="2800" data-aos="fade-up">Experience High-end bespoke designed 2/3 bedroom apartments</p>
 
                 </div>
             </div>
@@ -243,36 +245,36 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        Question 1
+                                        Is there on-site parking available for furnished apartments?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        On-site parking availability may vary depending on the specific apartment complex. Please contact us for more information on parking options for furnished apartments.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Question 2
+                                        Can I make changes or renovations to a furnished apartment?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        In general, tenants are not allowed to make changes or renovations to the apartment without the landlord's permission. Any changes or renovations must be discussed and agreed upon prior to making them. This includes making changes to the furnished items in the apartment.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Question 3
+                                        Can I purchase the furnishings in the apartment if I decide to move out?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        In general, the furnishings in the apartment belong to the landlord and are not for sale. However, if there are specific items that you are interested in purchasing, please contact us to discuss the possibility.
                                     </div>
                                 </div>
                             </div>
@@ -288,22 +290,22 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 col-lg-6 mss">
                         <p class="display-6 fw-bold text-center text-md-start">Get in touch with us</p>
-                        <form id="message_us">
+                        <form id="message_us" method="post">
                             <div class="input-group flex-nowrap mb-3">
                                 <span class="input-group-text" id="addon-wrapping"><i class="bi bi-person"></i></span>
-                                <input name="name" type="text" id="name" class="form-control" placeholder="Koffi Agyei" aria-label="Name" aria-describedby="addon-wrapping">
+                                <input required name="name" type="text" id="name" class="form-control" placeholder="Koffi Agyei" aria-label="Name" aria-describedby="addon-wrapping">
                             </div>
                             <div class="input-group flex-nowrap mb-3">
                                 <span class="input-group-text" id="addon-wrapping"><i class="bi bi-envelope"></i></span>
-                                <input name="email" type="email" id="email" class="form-control" placeholder="koffiagyei@mail.gh" aria-label="email" aria-describedby="addon-wrapping">
+                                <input required name="email" type="email" id="email" class="form-control" placeholder="koffiagyei@mail.gh" aria-label="email" aria-describedby="addon-wrapping">
                             </div>
                             <div class="input-group flex-nowrap mb-3">
                                 <span class="input-group-text" id="addon-wrapping"><i class="bi bi-phone"></i></span>
-                                <input name="phone" type="text" id="phone" class="form-control" placeholder="+233 00 000 0000" aria-label="phone_number" aria-describedby="addon-wrapping">
+                                <input required name="phone" type="text" id="phone" class="form-control" placeholder="+233 00 000 0000" aria-label="phone_number" aria-describedby="addon-wrapping">
                             </div>
                             <div class="input-group flex-nowrap mb-3">
                                 <div class="form-floating w-100">
-                                    <textarea name="message" class="form-control" placeholder="Leave a comment here" id="message" style="height: 100px"></textarea>
+                                    <textarea required name="message" class="form-control" placeholder="Leave a comment here" id="message" style="height: 100px"></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>

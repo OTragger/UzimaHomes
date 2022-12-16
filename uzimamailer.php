@@ -9,6 +9,7 @@ $message = $_REQUEST['message'];
 $to = 'info@uzimahomes.com';
 $subject = 'Contact Request From Uzima Website';
 $headers = "From: " . $name . " <" . $email . "> \r\n";
+$message .= '\r\n You may contact me directly on '.$phone ;
 $send_email = mail($to, $subject, $message, $headers);
 
 echo ($send_email) ? 'success' : 'error';
